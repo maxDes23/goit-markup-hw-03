@@ -336,7 +336,7 @@ button {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .btn-text {
@@ -367,8 +367,6 @@ button {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
-
-  margin-bottom: 72px;
 }
 
 .card-list {
@@ -389,6 +387,7 @@ button {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .card-text {
