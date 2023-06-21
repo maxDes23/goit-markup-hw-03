@@ -328,7 +328,7 @@ button {
 /* Portfolio */
 
 .section-main {
-  margin-top: 96px;
+  padding: 96px 0 120px 0;
 }
 
 .btn {
@@ -367,6 +367,7 @@ button {
   gap: 24px;
   row-gap: 48px;
   padding-bottom: 120px;
+  margin-bottom: 72px;
 }
 
 .card-border {
