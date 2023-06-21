@@ -12,11 +12,12 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-  <!-- Normalize -->
+    <!-- Normalize -->
     <link
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
     />
-     <!-- Custom styles -->
+    <!-- Custom styles -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -58,10 +59,9 @@
     </header>
     <!-- Унікальний контент сторінки -->
     <main>
-      <section class="section-main">
-        <h1 class="visually-hidden">Portfolio</h1>
-
-        <div class="container">
+      <div class="container">
+        <section class="section-main">
+          <h1 class="visually-hidden">Portfolio</h1>
           <ul class="list btn">
             <li><button class="btn-text" type="button">All</button></li>
             <li><button class="btn-text" type="button">Web Site</button></li>
@@ -149,11 +149,11 @@
                   <h2 class="card-title">Fresh Coffee</h2>
                   <p class="card-text">Web Site</p>
                 </div>
-                </a>
+              </a>
             </li>
           </ul>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
 
     <!-- Підвал сторінки -->

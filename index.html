@@ -15,7 +15,8 @@
     />
     <!-- Normalize -->
     <link
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
     />
     <!-- Custom styles -->
     <link rel="stylesheet" href="./css/styles.css" />
@@ -109,7 +110,9 @@
         <div class="container">
           <h2 class="section-title">What are we doing</h2>
           <ul class="section-pic-img list">
-            <li><img src="./images/img1.jpg" alt="picture" width="360" /></li>
+            <li class="images">
+              <img src="./images/img1.jpg" alt="picture" width="360" />
+            </li>
             <li><img src="./images/img2.jpg" alt="picture" width="360" /></li>
             <li><img src="./images/img3.jpg" alt="picture" width="360" /></li>
           </ul>
@@ -122,23 +125,31 @@
           <ul class="list team">
             <li class="team-card">
               <img src="./images/img4.jpg" alt="foto" width="264" />
-              <h3 class="team-title">Mark Guerrero</h3>
-              <p class="team-text">Product Designer</p>
+              <div class="team-list">
+                <h3 class="team-title">Mark Guerrero</h3>
+                <p class="team-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-card">
               <img src="./images/img5.jpg" alt="foto" width="264" />
-              <h3 class="team-title">Tom Ford</h3>
-              <p class="team-text">Frontend Developer</p>
+              <div class="team-list">
+                <h3 class="team-title">Tom Ford</h3>
+                <p class="team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-card">
               <img src="./images/img6.jpg" alt="foto" width="264" />
-              <h3 class="team-title">Camila Garcia</h3>
-              <p class="team-text">Marketing</p>
+              <div class="team-list">
+                <h3 class="team-title">Camila Garcia</h3>
+                <p class="team-text">Marketing</p>
+              </div>
             </li>
             <li class="team-card">
               <img src="./images/img7.jpg" alt="foto" width="264" />
-              <h3 class="team-title">Daniel Wilson</h3>
-              <p class="team-text">UI Designer</p>
+              <div class="team-list">
+                <h3 class="team-title">Daniel Wilson</h3>
+                <p class="team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
