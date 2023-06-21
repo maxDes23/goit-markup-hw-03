@@ -54,6 +54,7 @@ button {
 }
 
 /* Base styles */
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -125,6 +126,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .header-link:hover,
@@ -207,6 +209,10 @@ button {
   display: flex;
   gap: 24px;
   padding: 120px 0;
+}
+
+.feature-list {
+  width: calc((100% - 72px) / 4);
 }
 
 .feature-title {
@@ -352,6 +358,7 @@ button {
 .btn-text:focus {
   background-color: #404bbf;
   color: #ffffff;
+  border: 1px solid transparent;
 }
 
 .card {
