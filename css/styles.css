@@ -315,6 +315,7 @@ button {
   text-decoration: none;
   text-transform: uppercase;
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .page-footer {
@@ -333,7 +334,7 @@ button {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
-  margin-top: 16px;
+ 
 }
 
 /* Portfolio */
